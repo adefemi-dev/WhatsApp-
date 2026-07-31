@@ -124,6 +124,32 @@ Add to your Cursor MCP settings (`~/.cursor/mcp.json`):
 }
 ```
 
+### Claude Code CLI Configuration
+
+Register the server with the [`claude mcp add`](https://docs.claude.com/en/docs/claude-code/mcp) command:
+
+```bash
+claude mcp add whatsapp -- uv --directory /path/to/whatsapp-mcp/whatsapp-mcp-server run main.py
+```
+
+Or add it manually to `.mcp.json` (project scope) or `~/.claude.json` (user scope):
+
+```json
+{
+  "mcpServers": {
+    "whatsapp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/whatsapp-mcp/whatsapp-mcp-server",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
+```
+
 ## Tools
 
 Messages include `sender_display` showing "Name (phone)" format for easy identification by agents.
