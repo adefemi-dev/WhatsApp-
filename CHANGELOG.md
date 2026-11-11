@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.2](https://github.com/adefemi-dev/WhatsApp-/compare/v0.4.1...v0.4.2) (2026-11-11)
+
+
+### Bug Fixes
+
+* **bridge:** authenticate outbound webhook POSTs ([e5f1a9a](https://github.com/adefemi-dev/WhatsApp-/commit/e5f1a9aef5c78198ad27d52d40d4513d3b7e0e2f))
+* **bridge:** forward native WhatsApp activation metadata ([#173](https://github.com/adefemi-dev/WhatsApp-/issues/173)) ([afd2c7a](https://github.com/adefemi-dev/WhatsApp-/commit/afd2c7a0a0eba52d7837d02fb7293c662918dde6))
+* **bridge:** update whatsmeow to restore WhatsApp connectivity ([00cbeef](https://github.com/adefemi-dev/WhatsApp-/commit/00cbeef2462bbc608e407cb9c852a62d7cc3913d))
+* **bridge:** update whatsmeow to restore WhatsApp connectivity ([96fdf3f](https://github.com/adefemi-dev/WhatsApp-/commit/96fdf3f8134ffaab11b3cb4768096ddcd8847110))
+
+
+### Documentation
+
+* add Claude Code CLI MCP configuration instructions ([0d23f5d](https://github.com/adefemi-dev/WhatsApp-/commit/0d23f5df9f9be8cb56ff569361ee9752ccae201c))
+* add Claude Code CLI MCP configuration instructions ([669b7d6](https://github.com/adefemi-dev/WhatsApp-/commit/669b7d68ec90abab177d2bd881bec89990683122))
+
 ## [0.4.1](https://github.com/verygoodplugins/whatsapp-mcp/compare/v0.4.0...v0.4.1) (2026-06-26)
 
 
